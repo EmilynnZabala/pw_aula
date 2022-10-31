@@ -1,0 +1,13 @@
+.body{
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif #fff;
+}
+
+.menu{
+    background-color: #000;
+    width: 95%;
+    height: 200px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+

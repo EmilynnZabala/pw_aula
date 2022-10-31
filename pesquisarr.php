@@ -45,7 +45,12 @@
         
     } 
     else {
-        echo "<table border ="1" width="80%"><tr>";
+        $cargo = $_GET['SltCargo'];
+        $area  =  $_GET['SltArea'];
+        echo "<table border ='1' width='80%'><tr>";
+        echo "<td width='8%'> Registro </td> <td width='22%'> Nome </td> <td width='10%'> Cargo </td> 
+        <td width='10%'> Area </td> <td width ='10%'> Salario </td> <td width='10%'> eStatus </td>";
     }
+    
 </body>
 </html> 
